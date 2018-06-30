@@ -1,0 +1,514 @@
+html * {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*公共*/
+
+.section img {
+  width: 100%;
+}
+
+.section .background {
+  width: 100%;
+  height: 100%;
+  background-color: #ff571c;
+  overflow: hidden;
+}
+
+.section .top {
+  width: 86%;
+  margin-left: 7%;
+  margin-top: 8%;
+}
+
+.section .font {
+  width: 86%;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+
+.section .box {
+  width: 90%;
+  height: 45%;
+  margin-left: 5%;
+  margin-top: 8%;
+}
+
+.box div {
+  width: 49%;
+  height: 43%;
+  float: left;
+}
+
+.section .btn {
+  width: 90%;
+  margin-left: 5%;
+  margin-top:4%;
+}
+
+.section .btn .back {
+  width: 38%;
+  float: left;
+  margin-left: 3%;
+}
+
+.section .btn .next {
+  width: 55%;
+  margin-top: -3%;
+  float: right;
+  position: relative;
+}
+
+.section .btn .next .hand {
+  position: absolute;
+  right: 14%;
+  bottom: 20%;
+  width: 15%;
+  display: none;
+}
+
+
+/*首页*/
+
+#section_start .button {
+  position: absolute;
+  left: 15%;
+  bottom: 4%;
+  width: 70%;
+}
+
+
+/*第一题*/
+
+#section1 .button {
+  position: relative;
+  left: 15%;
+  top: 4%;
+  width: 70%;
+}
+
+#section1 .button .hand {
+  position: absolute;
+  right: 18%;
+  top: 40%;
+  width: 15%;
+  display: none;
+}
+
+.box .choose1:nth-child(1) {
+  background: url('../images/a1.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose1:nth-child(2) {
+  background: url('../images/b1.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose1:nth-child(3) {
+  background: url('../images/c1.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose1:nth-child(4) {
+  background: url('../images/d1.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose1.active:nth-child(1) {
+  background: url('../images/a1_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose1.active:nth-child(2) {
+  background: url('../images/b1_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose1.active:nth-child(3) {
+  background: url('../images/c1_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose1.active:nth-child(4) {
+  background: url('../images/d1_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+
+/*第二题*/
+
+.box .choose2:nth-child(1) {
+  background: url('../images/a2.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose2:nth-child(2) {
+  background: url('../images/b2.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose2:nth-child(3) {
+  background: url('../images/c2.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose2:nth-child(4) {
+  background: url('../images/d2.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose2.active:nth-child(1) {
+  background: url('../images/a2_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose2.active:nth-child(2) {
+  background: url('../images/b2_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose2.active:nth-child(3) {
+  background: url('../images/c2_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose2.active:nth-child(4) {
+  background: url('../images/d2_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+
+/*第三题*/
+
+.section#section3 .font {
+  padding-bottom: 2%;
+}
+
+.box .choose3:nth-child(1) {
+  background: url('../images/a3.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose3:nth-child(2) {
+  background: url('../images/b3.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose3:nth-child(3) {
+  background: url('../images/c3.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose3:nth-child(4) {
+  background: url('../images/d3.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose3.active:nth-child(1) {
+  background: url('../images/a3_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose3.active:nth-child(2) {
+  background: url('../images/b3_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose3.active:nth-child(3) {
+  background: url('../images/c3_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose3.active:nth-child(4) {
+  background: url('../images/d3_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+
+/*第四题*/
+
+.box .choose4:nth-child(1) {
+  background: url('../images/a4.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose4:nth-child(2) {
+  background: url('../images/b4.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose4:nth-child(3) {
+  background: url('../images/c4.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose4:nth-child(4) {
+  background: url('../images/d4.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose4.active:nth-child(1) {
+  background: url('../images/a4_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose4.active:nth-child(2) {
+  background: url('../images/b4_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose4.active:nth-child(3) {
+  background: url('../images/c4_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose4.active:nth-child(4) {
+  background: url('../images/d4_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+
+/*第五题*/
+
+.box .choose5:nth-child(1) {
+  background: url('../images/a5.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose5:nth-child(2) {
+  background: url('../images/b5.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose5:nth-child(3) {
+  background: url('../images/c5.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose5:nth-child(4) {
+  background: url('../images/d5.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose5.active:nth-child(1) {
+  background: url('../images/a5_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose5.active:nth-child(2) {
+  background: url('../images/b5_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose5.active:nth-child(3) {
+  background: url('../images/c5_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose5.active:nth-child(4) {
+  background: url('../images/d5_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+
+/*第六题*/
+
+.box .choose6:nth-child(1) {
+  background: url('../images/a6.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose6:nth-child(2) {
+  background: url('../images/b6.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose6:nth-child(3) {
+  background: url('../images/c6.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose6:nth-child(4) {
+  background: url('../images/d6.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose6.active:nth-child(1) {
+  background: url('../images/a6_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose6.active:nth-child(2) {
+  background: url('../images/b6_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose6.active:nth-child(3) {
+  background: url('../images/c6_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose6.active:nth-child(4) {
+  background: url('../images/d6_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+
+/*第七题*/
+
+.box .choose7:nth-child(1) {
+  background: url('../images/a7.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose7:nth-child(2) {
+  background: url('../images/b7.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose7:nth-child(3) {
+  background: url('../images/c7.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose7:nth-child(4) {
+  background: url('../images/d7.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose7.active:nth-child(1) {
+  background: url('../images/a7_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose7.active:nth-child(2) {
+  background: url('../images/b7_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose7.active:nth-child(3) {
+  background: url('../images/c7_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose7.active:nth-child(4) {
+  background: url('../images/d7_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+
+/*第八题*/
+
+.box .choose8:nth-child(1) {
+  background: url('../images/a8.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose8:nth-child(2) {
+  background: url('../images/b8.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose8:nth-child(3) {
+  background: url('../images/c8.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose8:nth-child(4) {
+  background: url('../images/d8.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose8.active:nth-child(1) {
+  background: url('../images/a8_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose8.active:nth-child(2) {
+  background: url('../images/b8_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose8.active:nth-child(3) {
+  background: url('../images/c8_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose8.active:nth-child(4) {
+  background: url('../images/d8_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+
+/*第九题*/
+
+.section#section9 .btn .next .hand {
+  right: 19%;
+}
+
+.box .choose9:nth-child(1) {
+  background: url('../images/a9.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose9:nth-child(2) {
+  background: url('../images/b9.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose9:nth-child(3) {
+  background: url('../images/c9.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose9:nth-child(4) {
+  background: url('../images/d9.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose9.active:nth-child(1) {
+  background: url('../images/a9_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose9.active:nth-child(2) {
+  background: url('../images/b9_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose9.active:nth-child(3) {
+  background: url('../images/c9_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+.box .choose9.active:nth-child(4) {
+  background: url('../images/d9_active.png') center no-repeat;
+  background-size: 100%;
+}
+
+
+/*结果页*/
+
+.end-top {
+  width: 40%;
+  margin-left: 50%;
+  margin-top: 10%;
+}
+
+.end-img {
+  width: 84%;
+  margin-left: 8%;
+  margin-top: 8%;
+}
+
+.reward {
+  width: 50%;
+  margin-left: 15%;
+}
